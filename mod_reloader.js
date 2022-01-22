@@ -10,6 +10,7 @@ const METADATA = {
 
 class Mod extends shapez.Mod {
     init() {
+
         this.modInterface.registerIngameKeybinding({
             id: "mod_reloader",
             keyCode: shapez.keyToKeyCode("H"),
@@ -23,15 +24,31 @@ class Mod extends shapez.Mod {
                 return shapez.STOP_PROPAGATION;
             },
         });
+
         this.signals.stateEntered.add(state => {
             if (state.key === "MainMenuState") {
                 const element = document.createElement("div");
-                element.id = "mod_reloader";
+                element.id = "mods_reload_mainmenu";
+                element.classList.add("modReloader");
                 document.body.appendChild(element);
 
                 const button = document.createElement("button");
                 button.classList.add("styledButton");
-                button.innerText = "Reload Mods!";
+                button.innerText = "Reload Mods";
+                button.addEventListener("click", () => {
+                    window.location.reload()
+                });
+                element.appendChild(button);
+            }
+            else if (state.key === "ModsState") {
+                const element = document.createElement("div");
+                element.id = "mods_reload_modmenu";
+                element.classList.add("modReloader");
+                document.body.appendChild(element);
+
+                const button = document.createElement("button");
+                button.classList.add("styledButton");
+                button.innerText = "Reload Mods";
                 button.addEventListener("click", () => {
                     window.location.reload()
                 });
@@ -40,13 +57,23 @@ class Mod extends shapez.Mod {
         });
 
         this.modInterface.registerCss(`
-                #mod_reloader {
-                    position: absolute;
-                    top: calc(10px * var(--ui-scale));
-                    left: calc(10px * var(--ui-scale));
-                    color: red;
-                    z-index: 0;
-                }
-            `);
+            .modReloader * {
+                background-color: #444;
+                color: #f00;
+                font-weight: bolder;
+            }
+            #mods_reload_mainmenu {
+                position: absolute;
+                top: calc(10px * var(--ui-scale));
+                left: calc(10px * var(--ui-scale));
+                z-index: 0;
+            }
+            #mods_reload_modmenu {
+                position: absolute;
+                top: calc(35px * var(--ui-scale));
+                right: calc(318px * var(--ui-scale));
+                z-index: 0;
+            }
+        `);
     }
 }
