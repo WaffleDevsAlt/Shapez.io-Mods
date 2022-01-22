@@ -20,6 +20,6 @@ NOTE: You can only use mods in the [Standalone](https://store.steampowered.com/a
 
 This is a list of all my current mods, along with their descriptions and most recent updates!
 
-1. Colored Paint Brushes\n
-  Description: Changes Color Icons to Paint Brushes\n
+1. Colored Paint Brushes
+  Description: Changes Color Icons to Paint Brushes
   Version: 1
