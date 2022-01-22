@@ -3,7 +3,7 @@ const METADATA = {
     website: "https://waffledevsalt.github.io",
     author: "WaffleDevs",
     name: "Mod Reloader",
-    version: "1.1.0",
+    version: "1.1.1",
     id: "mod-reloader",
     description: "Adds a button to the main menu, that reloads the your mods! It also adds a keybind to do the same but ingame (Control Shift [ANYKEY, Default: H])!",
 };
@@ -58,8 +58,8 @@ class Mod extends shapez.Mod {
 
         this.modInterface.registerCss(`
             .modReloader * {
-                background-color: #444;
-                color: #f00;
+                background-color: #f55;
+                color: white;
                 font-weight: bolder;
             }
             #mods_reload_mainmenu {
