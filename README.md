@@ -3,10 +3,10 @@ This is a collection of my own [shapez.io](https://shapez.io) mods!
 
 Currently the [Official ModLoader](https://github.com/tobspr/shapez.io/tree/modloader) is in beta, so expect these mods to break at some point.
 
-##How to use the mods!
+## How to use the mods!
 NOTE: You can only use mods in the [Standalone](https://store.steampowered.com/app/1318690/shapezio/) version of the game.
 
-###Version 1.5.0 (These steps are subject to change):
+### Version 1.5.0 (These steps are subject to change):
 
   1. Go to your steam library, and go to Shapez.Io
   2. Click the gear named "Manage" and click "Properties..."
