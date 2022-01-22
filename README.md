@@ -22,5 +22,5 @@ This is a list of all my current mods, along with their descriptions and most re
 
 1. Colored Paint Brushes
 
-...Description: Changes Color Icons to Paint Brushes
-...Version: 1
+...Description: Changes Color Icons to Paint Brushes.
+...Version: 1.
