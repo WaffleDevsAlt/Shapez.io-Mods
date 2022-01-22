@@ -20,16 +20,8 @@ NOTE: You can only use mods in the [Standalone](https://store.steampowered.com/a
 
 This is a list of all my current mods, along with their descriptions and most recent updates!
 
-1. Colored Paint Brushes
-
-⋅⋅* Description: Changes Color Icons to Paint Brushes.
-
-⋅⋅* Version: 1.
-
 <dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  <dt>1. Colored Paint Brushes</dt>
+  <dd>Description: Changes Color Icons to Paint Brushes.</dd>
+  <dd>Version: 1</dd>
 </dl>
