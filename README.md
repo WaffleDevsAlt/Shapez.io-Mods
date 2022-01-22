@@ -21,7 +21,13 @@ NOTE: You can only use mods in the [Standalone](https://store.steampowered.com/a
 This is a list of all my current mods, along with their descriptions and most recent updates!
 
 <dl>
-  <dt>1. Colored Paint Brushes</dt>
+  <dt>1. Hot Reload</dt>
+  <dd>Description: Adds the ability to reload your mods, from inside the game!</dd>
+  <dd>Version: 1.0.0</dd>
+  <dd>ModLoader Version: 1.5.0</dd>
+  
+  <dt>2. Colored Paint Brushes</dt>
   <dd>Description: Changes Color Icons to Paint Brushes.</dd>
   <dd>Version: 1</dd>
+  <dd>ModLoader Version: 1.5.0</dd>
 </dl>
