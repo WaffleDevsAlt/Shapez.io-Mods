@@ -19,10 +19,7 @@ class Mod extends shapez.Mod {
                 ctrl: true
             },
             handler: root => {
-                this.dialogs.showInfo("Mod Reloader:", "Reloading mods!");
-                setTimeout(() => {
-                    window.location.reload()
-                }, 400)
+                window.location.reload()
                 return shapez.STOP_PROPAGATION;
             },
         });
@@ -36,10 +33,7 @@ class Mod extends shapez.Mod {
                 button.classList.add("styledButton");
                 button.innerText = "Reload Mods!";
                 button.addEventListener("click", () => {
-                    this.dialogs.showInfo("Mod Reloader:", "Reloading mods!");
-                    setTimeout(() => {
-                        window.location.reload()
-                    }, 400)
+                    window.location.reload()
                 });
                 element.appendChild(button);
             }
