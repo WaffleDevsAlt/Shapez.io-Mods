@@ -46,7 +46,7 @@ class Mod extends shapez.Mod {
         });
 
         this.modInterface.registerCss(`
-                #hot_reload {
+                #mod_reloader {
                     position: absolute;
                     top: calc(10px * var(--ui-scale));
                     left: calc(10px * var(--ui-scale));
