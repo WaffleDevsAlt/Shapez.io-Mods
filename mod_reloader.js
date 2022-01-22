@@ -3,7 +3,7 @@ const METADATA = {
     website: "https://waffledevsalt.github.io",
     author: "WaffleDevs",
     name: "Mod Reloader",
-    version: "1.0.1",
+    version: "1.1.0",
     id: "mod-reloader",
     description: "Adds a button to the main menu, that reloads the your mods! It also adds a keybind to do the same but ingame (Control Shift [ANYKEY, Default: H])!",
 };
