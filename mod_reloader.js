@@ -6,7 +6,6 @@ const METADATA = {
     version: "1.0.1",
     id: "mod-reloader",
     description: "Adds a button to the main menu, that reloads the your mods! It also adds a keybind to do the same but ingame (Control Shift [ANYKEY, Default: H])!",
-    minimumGameVersion: "^1.5.0",
 };
 
 class Mod extends shapez.Mod {
