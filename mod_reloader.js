@@ -2,24 +2,24 @@
 const METADATA = {
     website: "https://waffledevsalt.github.io",
     author: "WaffleDevs",
-    name: "Hot Reload",
-    version: "1.0.0",
-    id: "hot-reload",
-    description: "Adds a button to the main menu, that hot reloads the game. It also adds a keybind to do the same but ingame (Control Shift [ANYKEY, Default: H])!",
+    name: "Mod Reloader",
+    version: "1.0.1",
+    id: "mod-reloader",
+    description: "Adds a button to the main menu, that reloads the your mods! It also adds a keybind to do the same but ingame (Control Shift [ANYKEY, Default: H])!",
 };
 
 class Mod extends shapez.Mod {
     init() {
         this.modInterface.registerIngameKeybinding({
-            id: "hot_reload",
+            id: "mod_reloader",
             keyCode: shapez.keyToKeyCode("H"),
-            translation: "Hot Reload",
+            translation: "Mod Reloader",
             modifiers: {
                 shift: true,
                 ctrl: true
             },
             handler: root => {
-                this.dialogs.showInfo("Hot Reload:", "Reloading!");
+                this.dialogs.showInfo("Mod Reloader:", "Reloading mods!");
                 setTimeout(() => {
                     window.location.reload()
                 }, 400)
@@ -29,14 +29,14 @@ class Mod extends shapez.Mod {
         this.signals.stateEntered.add(state => {
             if (state.key === "MainMenuState") {
                 const element = document.createElement("div");
-                element.id = "hot_reload";
+                element.id = "mod_reloader";
                 document.body.appendChild(element);
 
                 const button = document.createElement("button");
                 button.classList.add("styledButton");
                 button.innerText = "Reload Mods!";
                 button.addEventListener("click", () => {
-                    this.dialogs.showInfo("Hot Reload:", "Reloading!");
+                    this.dialogs.showInfo("Mod Reloader:", "Reloading mods!");
                     setTimeout(() => {
                         window.location.reload()
                     }, 400)
