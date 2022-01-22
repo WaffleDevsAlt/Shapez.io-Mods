@@ -12,7 +12,7 @@ NOTE: You can only use mods in the [Standalone](https://store.steampowered.com/a
   2. Click the gear named "Manage" and click "Properties..."
   3. In the window that opened, click betas. Then select the dropdown, and select anything that's named "Modloader"
   5. Update and open your game.
-  6. Click the circuit board and the click "Open Folder"
+  6. Click the pink circuit board and the click "Open Folder"
   7. Place any mod file into the opened folder, and relaunch your game!
 
 
