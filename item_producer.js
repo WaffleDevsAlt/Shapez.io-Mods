@@ -5,7 +5,7 @@ const METADATA = {
     name: "Item Producer",
     version: "1.0.0",
     id: "item_producer",
-    description: "Adds the Item Producer into the main game.",
+    description: "Adds the Item Producer into the main game. (Legit most credit goes to tobspr)",
     minimumGameVersion: ">=1.5.0",
 };
 
