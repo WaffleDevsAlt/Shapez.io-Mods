@@ -3,7 +3,7 @@ const METADATA = {
     website: "https://waffledevsalt.github.io",
     author: "WaffleDevs",
     name: "Mirrored Buildings",
-    version: "Beta-0.3",
+    version: "Beta-0.5",
     id: "mirrored_buildings",
     description: "Adds Mirrored versions of buildings",
     minimumGameVersion: ">=1.5.0",
@@ -62,12 +62,12 @@ class MetaStackerFlipped extends shapez.ModMetaBuilding {
             new shapez.ItemAcceptorComponent({
                 slots: [
                     {
-                        pos: new shapez.Vector(0, 0),
+                        pos: new shapez.Vector(1, 0),
                         direction: shapez.enumDirection.bottom,
                         filter: "shape",
                     },
                     {
-                        pos: new shapez.Vector(1, 0),
+                        pos: new shapez.Vector(0, 0),
                         direction: shapez.enumDirection.bottom,
                         filter: "shape",
                     },
