@@ -1,6 +1,6 @@
 // @ts-nocheck
 const METADATA = {
-    website: "https://waffledevsalt.github.io",
+    website: "https://github.com/WaffleDevsAlt/Shapez.io-Mods",
     author: "WaffleDevs",
     name: "Mirrored Buildings",
     version: "Beta-0.5",
