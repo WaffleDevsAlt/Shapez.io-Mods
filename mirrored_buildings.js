@@ -3,7 +3,7 @@ const METADATA = {
     website: "https://github.com/WaffleDevsAlt/Shapez.io-Mods",
     author: "WaffleDevs",
     name: "Mirrored Buildings",
-    version: "1.0.0",
+    version: "1.2.1",
     id: "mirrored_buildings",
     description: "Adds Mirrored versions of buildings",
     minimumGameVersion: ">=1.5.0",
@@ -43,7 +43,7 @@ class MetaStorageFlipped extends shapez.ModMetaBuilding {
     }
 
     getIsUnlocked(root) {
-        return true//shapez.root.hubGoals.isRewardUnlocked(shapez.enumHubGoalRewards.reward_stacker);
+        return root.hubGoals.isRewardUnlocked(shapez.enumHubGoalRewards.reward_storage);
     }
 
     setupEntityComponents(entity) {
@@ -135,7 +135,7 @@ class MetaStackerFlipped extends shapez.ModMetaBuilding {
     }
 
     getIsUnlocked(root) {
-        return true//shapez.root.hubGoals.isRewardUnlocked(shapez.enumHubGoalRewards.reward_stacker);
+        return root.hubGoals.isRewardUnlocked(shapez.enumHubGoalRewards.reward_stacker);
     }
 
     setupEntityComponents(entity) {
@@ -203,7 +203,7 @@ class MetaMixerFlipped extends shapez.ModMetaBuilding {
     }
 
     getIsUnlocked(root) {
-        return true//shapez.root.hubGoals.isRewardUnlocked(shapez.enumHubGoalRewards.reward_stacker);
+        return root.hubGoals.isRewardUnlocked(shapez.enumHubGoalRewards.reward_mixer);
     }
 
     setupEntityComponents(entity) {
@@ -271,7 +271,7 @@ class MetaPainterDoubleFlipped extends shapez.ModMetaBuilding {
     }
 
     getIsUnlocked(root) {
-        return true//shapez.root.hubGoals.isRewardUnlocked(shapez.enumHubGoalRewards.reward_stacker);
+        return root.hubGoals.isRewardUnlocked(shapez.enumHubGoalRewards.reward_painter_double);
     }
 
     setupEntityComponents(entity) {
@@ -364,7 +364,7 @@ class MetaCutterFlipped extends shapez.ModMetaBuilding {
     }
 
     getIsUnlocked(root) {
-        return true//shapez.root.hubGoals.isRewardUnlocked(shapez.enumHubGoalRewards.reward_stacker);
+        return root.hubGoals.isRewardUnlocked(shapez.enumHubGoalRewards.reward_cutter_and_trash);
     }
 
     setupEntityComponents(entity) {
