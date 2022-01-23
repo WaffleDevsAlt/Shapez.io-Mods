@@ -38,6 +38,6 @@ This is a list of all my current mods, along with their descriptions and most re
   
   <dt>4. Mirrored Buildings</dt>
   <dd>Description: Adds Mirrored versions of buildings.</dd>
-  <dd>Version: Beta-0.1</dd>
+  <dd>Version: Beta-0.3</dd>
   <dd>ModLoader Version: 1.5.0</dd>
 </dl>
