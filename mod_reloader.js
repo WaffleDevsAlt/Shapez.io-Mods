@@ -1,6 +1,6 @@
 // @ts-nocheck
 const METADATA = {
-    website: "https://waffledevsalt.github.io",
+    website: "https://github.com/WaffleDevsAlt/Shapez.io-Mods",
     author: "WaffleDevs",
     name: "Mod Reloader",
     version: "1.1.1",
