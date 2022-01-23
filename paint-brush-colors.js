@@ -2,7 +2,7 @@
 
 //This is built off of the "replace_builtin_sprites.js" example mod! https://github.com/tobspr/shapez.io/tree/modloader/mod_examples
 const METADATA = {
-    website: "https://waffledevsalt.github.io",
+    website: "https://github.com/WaffleDevsAlt/Shapez.io-Mods",
     author: "WaffleDevs",
     name: "Colored Paint Brushes",
     version: "1",
