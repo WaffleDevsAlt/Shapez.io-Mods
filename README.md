@@ -31,9 +31,9 @@ This is a list of all my current mods, along with their descriptions and most re
   <dd>Version: 1.0.0</dd>
   <dd>ModLoader Version: 1.5.0</dd>
   
-  <dt>3. Larger Mods Column</dt>
-  <dd>Description: Makes the Main Menu Mods column a little bit larger.</dd>
-  <dd>Version: 1.0.0</dd>
+  <dt>3. Better Ui</dt>
+  <dd>Description: Fixes several things with the rushed Mods Ui.</dd>
+  <dd>Version: 1.0.1</dd>
   <dd>ModLoader Version: 1.5.0</dd>
   
   <dt>4. Mirrored Buildings</dt>
