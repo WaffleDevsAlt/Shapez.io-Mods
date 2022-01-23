@@ -33,11 +33,11 @@ This is a list of all my current mods, along with their descriptions and most re
   
   <dt>3. Better Ui</dt>
   <dd>Description: Fixes several things with the rushed Mods Ui.</dd>
-  <dd>Version: 1.0.1</dd>
+  <dd>Version: 1.0.0</dd>
   <dd>ModLoader Version: 1.5.0</dd>
   
   <dt>4. Mirrored Buildings</dt>
   <dd>Description: Adds Mirrored versions of buildings.</dd>
-  <dd>Version: Beta-0.3</dd>
+  <dd>Version: Beta-0.5</dd>
   <dd>ModLoader Version: 1.5.0</dd>
 </dl>
