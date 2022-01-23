@@ -3,7 +3,7 @@ const METADATA = {
     website: "https://waffledevsalt.github.io",
     author: "WaffleDevs",
     name: "Mirrored Buildings",
-    version: "test",
+    version: "Beta-0.1",
     id: "mirrored_buildings",
     description: "Adds Mirrored versions of buildings",
     minimumGameVersion: ">=1.5.0",
