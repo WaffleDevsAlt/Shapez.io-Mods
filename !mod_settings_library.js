@@ -5,7 +5,7 @@ const METADATA = {
     name: "Mod Settings Library",
     version: "1.0.0",
     id: "mod_settings_library",
-    description: "This mod adds the ablity for mod developers to add their mod's settings to the main menu.",
+    description: "This mod adds the ability for mod developers to add their mod's settings to the main menu.",
     minimumGameVersion: ">=1.5.0",
 };
 
