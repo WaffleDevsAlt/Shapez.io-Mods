@@ -3,7 +3,7 @@ const METADATA = {
     website: "https://github.com/WaffleDevsAlt/Shapez.io-Mods",
     author: "WaffleDevs",
     name: "Mod Settings Library",
-    version: "1.0.0",
+    version: "1.2.0",
     id: "mod_settings_library",
     description: "This mod adds the ability for mod developers to add their mod's settings to the main menu.",
     minimumGameVersion: ">=1.5.0",
@@ -56,7 +56,14 @@ class Mod extends shapez.Mod {
             else selectedId ++;
             settingButton.innerText = settingName + ": \n" + settingVisuals[selectedId];
             mod.settings[settingId] = selectedId
-            console.log(selectedId)
+            mod.saveSettings()
+        });
+        settingButton.addEventListener('contextmenu', e => {
+            e.preventDefault();
+            if(selectedId <= 0) selectedId = settingValues.length-1;
+            else selectedId --;
+            settingButton.innerText = settingName + ": \n" + settingVisuals[selectedId];
+            mod.settings[settingId] = selectedId
             mod.saveSettings()
         });
         document.getElementById('mod_settings_div').appendChild(settingButton);
