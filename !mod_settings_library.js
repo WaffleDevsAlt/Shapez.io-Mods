@@ -43,8 +43,8 @@ class Mod extends shapez.Mod {
 
         document.getElementById('mod_settings_div').appendChild(settingBarrier);
     }
-    createSettingButton(mod, selectedId, amountOfOptions, buttonCss, settingId, settingName, settingValues, settingVisuals) {
-        if(mod== undefined || amountOfOptions == undefined || buttonCss == undefined || settingId == undefined || settingName == undefined || settingValues == undefined || settingVisuals == undefined) return false;
+    createSettingButton(mod, selectedId, buttonCss, settingId, settingName, settingValues, settingVisuals) {
+        if(mod== undefined || buttonCss == undefined || settingId == undefined || settingName == undefined || settingValues == undefined || settingVisuals == undefined) return false;
         const settingButton = document.createElement("button");
         settingVisuals = settingVisuals || settingValues;
         settingButton.classList.add("styledButton");
@@ -52,7 +52,7 @@ class Mod extends shapez.Mod {
         settingButton.style = buttonCss
         settingButton.innerText = settingName + ": \n"+settingVisuals[selectedId];
         settingButton.addEventListener("click", () => {
-            if(selectedId >= amountOfOptions-1) selectedId = 0;
+            if(selectedId >= settingValues.length-1) selectedId = 0;
             else selectedId ++;
             settingButton.innerText = settingName + ": \n" + settingVisuals[selectedId];
             mod.settings[settingId] = selectedId
