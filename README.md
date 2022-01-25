@@ -28,20 +28,25 @@ This is a list of all my current mods, along with their descriptions and most re
   
   <dt>2. Mirrored Buildings</dt>
   <dd>Description: Adds Mirrored versions of buildings.</dd>
-  <dd>Version: 1.3,0</dd>
+  <dd>Version: 1.3.0</dd>
   <dd>ModLoader Version: 1.5.0</dd>
   
-  <dt>3. Better Ui</dt>
+  <dt>3. Mod Settings Library [Dependency]</dt>
+  <dd>Description: This mod adds the ability for mod developers to add their mod's settings to the main menu.</dd>
+  <dd>Version: 1.1.0</dd>
+  <dd>ModLoader Version: 1.5.0</dd>
+  
+  <dt>4. Better Ui</dt>
   <dd>Description: Fixes several things with the rushed Mods Ui.</dd>
   <dd>Version: 1.0.0</dd>
   <dd>ModLoader Version: 1.5.0</dd>
   
-  <dt>4. Colored Paint Brushes</dt>
+  <dt>5. Colored Paint Brushes</dt>
   <dd>Description: Changes Color Icons to Paint Brushes.</dd>
   <dd>Version: 1.0.0</dd>
   <dd>ModLoader Version: 1.5.0</dd>
   
-  <dt>5. Item Producer</dt>
+  <dt>6. Item Producer</dt>
   <dd>Description: Adds the Item Producer into the main game.</dd>
   <dd>Version: 1.0.0</dd>
   <dd>ModLoader Version: 1.5.0</dd>
