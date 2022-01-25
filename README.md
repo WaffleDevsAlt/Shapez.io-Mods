@@ -33,7 +33,7 @@ This is a list of all my current mods, along with their descriptions and most re
   
   <dt>3. Mod Settings Library [Dependency]</dt>
   <dd>Description: This mod adds the ability for mod developers to add their mod's settings to the main menu.</dd>
-  <dd>Version: 1.1.0</dd>
+  <dd>Version: 1.2.0</dd>
   <dd>ModLoader Version: 1.5.0</dd>
   
   <dt>4. Better Ui</dt>
