@@ -13,7 +13,7 @@ const METADATA = {
 };
 
 
-const hubCost = 10000
+let hubCost = 10000
 
 class MetaHubPlaceable extends shapez.ModMetaBuilding {
     constructor() {
@@ -131,7 +131,7 @@ class Mod extends shapez.Mod {
             [root, variant]
         ) {
             const oldStats = $original(root, variant);
-            oldStats.push(["Cost", HubCost + " BluePrints"]);
+            oldStats.push(["Cost", hubCost + " BluePrints"]);
             return oldStats;
         });
 
@@ -141,7 +141,7 @@ class Mod extends shapez.Mod {
             [entity, options]
         ) {
             const storedCurrency = this.root.hubGoals.storedShapes[CURRENCY] || 0;
-            return storedCurrency >= HubCost && $original(entity, options);
+            return storedCurrency >= hubCost && $original(entity, options);
         });
 
         // Take shapes when placing a building
@@ -149,8 +149,8 @@ class Mod extends shapez.Mod {
             const result = $original(...args);
             console.log(this.root.hubGoals.storedShapes[CURRENCY])
             if (result && result.components.Hub) {
-            		HubCost *= 1.3
-                this.root.hubGoals.storedShapes[CURRENCY]-= HubCost;
+            		hubCost *= 1.3
+                this.root.hubGoals.storedShapes[CURRENCY]-= hubCost;
                 this.signals.gameSerialized.add((root, data) => {
                   data.modExtraData["hub-cost"] *= 1.25
               	});
